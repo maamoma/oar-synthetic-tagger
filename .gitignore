@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+
+# Config with secrets (API keys, passwords)
+synthetic_tagger/synthetic_tag/config/config.json
+
+# Data files
+*.csv
+*.xlsx
+
+# Extracts and stored data
+synthetic_tagger/synthetic_tag/extracts/
+synthetic_tagger/synthetic_tag/Stored Inputs/
+synthetic_tagger/synthetic_tag/Stored Outputs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+*.code-workspace

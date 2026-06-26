@@ -1,0 +1,20 @@
+{
+    "sql": {
+        "server": "<sql-server-host>,1433",
+        "database": "<database-name>",
+        "username_sql": "<username>",
+        "pw_sql": "<base64-encoded-password>"
+    },
+    "new_relic": {
+        "api_key": "<NRAK-xxxx>",
+        "nerdgraph_url": "https://api.newrelic.com/graphql"
+    },
+    "cmdb_api": {
+        "base_url": "https://api.cac.prod.apim.manulife.io/one-api",
+        "subscription_key": "<subscription-key>"
+    },
+    "apply_tags": true,
+    "push_to_sql": false,
+    "push_limit": 0,
+    "push_skip": 1
+}
