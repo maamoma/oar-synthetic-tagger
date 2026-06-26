@@ -13,8 +13,8 @@
         "base_url": "https://api.cac.prod.apim.manulife.io/one-api",
         "subscription_key": "<subscription-key>"
     },
-    "apply_tags": true,
+    "apply_tags": false,
     "push_to_sql": false,
     "push_limit": 0,
-    "push_skip": 1
+    "push_skip": 0
 }
